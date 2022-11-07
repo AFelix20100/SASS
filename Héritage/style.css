@@ -1,0 +1,30 @@
+.number3 h1, .number1 h1 {
+  color: #FFFFFF !important;
+}
+
+.number3, .number2, .number1 {
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.number1 {
+  background-color: #F79D84;
+}
+.number2 {
+  background-color: #3FA7D6;
+}
+
+.number3 {
+  background-color: #FAC05E;
+}
+
+/*# sourceMappingURL=style.css.map */

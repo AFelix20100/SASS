@@ -1,0 +1,45 @@
+$number1:#F79D84;
+$number2:#3FA7D6;
+$number3:#FAC05E;
+
+%fontWhite 
+{
+  color: #FFFFFF!important;
+}
+%divSettings
+{
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    margin:20px;
+}
+.main
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.number1
+{
+    @extend %divSettings;
+    background-color:#F79D84;
+    h1
+    {
+        @extend %fontWhite;
+    } 
+}
+.number2
+{
+    @extend %divSettings;
+    background-color: #3FA7D6
+}
+.number3
+{
+    @extend %divSettings;
+    background-color: #FAC05E;
+    h1
+    {
+        @extend %fontWhite;
+    }
+}

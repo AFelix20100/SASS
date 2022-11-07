@@ -1,0 +1,43 @@
+$number1:#F79D84;
+$number2:#3FA7D6;
+$number3:#FAC05E;
+
+%fontWhite 
+{
+  color: #FFFFFF!important;
+}
+@mixin divSettings($color : rgb(255, 0, 0))
+{
+    background-color: $color;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    margin:20px;
+}
+.main
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.number1
+{
+    @include divSettings($number1);
+    h1
+    {
+        @extend %fontWhite;
+    } 
+}
+.number2
+{
+    @include divSettings($number2);
+}
+.number3
+{
+    @include divSettings($number3);
+    h1
+    {
+        @extend %fontWhite;
+    }
+}
